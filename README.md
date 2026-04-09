@@ -69,9 +69,9 @@ Para configurar o añadir direcciones, se debe editar el archivo addresses.json,
 parámetros como order, retail y address son fundamentales parra la ejecución de los scrapers, los demás son elementos opcionales.
 LOS SCRAPERS DE DIDIFOOD Y UBEREATS SOLICITAN ACCEDER CON USUARIO Y CONTRASEÑA, SE PROVEEN UNA SOLA VEZ EN LA EJECUCIÓN DE LOS SCRAPERS, PERO ES FUNDAMENTAL DÁRSELOS AL PROGRAMA CON USUARIOS EXISTENTES.
 -------------------------------------------------------USO---------------------------------------------------------------
--LA EJECUCIÓN DEL PROGRAMA MUESTRA POR CONSOLA 3 MENSAJES:Iniciar scraping
-                                                          Analizar Datos
-                                                          Salir
+-LA EJECUCIÓN DEL PROGRAMA MUESTRA POR CONSOLA 3 MENSAJES:1. Iniciar scraping
+                                                          2.Analizar Datos
+                                                          3. Salir
 La primera opción actualiza los JSON que se encuentran en la carpeta results, según la plataforma que corresponda hay un JSON para ella y según el día se genera un archivo nuevo a cada plataforma.
 la segunda opción permite visualizar los datos almacenados en TODOS LOS JSON de la carpeta resultados, seleccionar la orden y aplicar filtro de localización para visualizar parámetros clave.
 Es obligatorio seleccionar la orden para la graficación, el resto de parámetros son opcionales.Las capturas de pantalla de manera general se pueden visualizar en la carpeta de screenshots, las capturas por cada plataforma se pueden consultar en results/screenshots
