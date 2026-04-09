@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2026-04-09T13:34:11.392009",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 13,
+    "costo_envio": null,
+    "costo_total": "$242.99",
+    "costo_retail": "$26.00"
+  },
+  {
+    "timestamp": "2026-04-09T13:35:25.632691",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 12,
+    "costo_envio": null,
+    "costo_total": "$242.99",
+    "costo_retail": "$26.00"
+  },
+  {
+    "timestamp": "2026-04-09T13:36:29.688640",
+    "empresa": "UBEREATS",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T13:37:45.710314",
+    "empresa": "UBEREATS",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T13:38:30.824603",
+    "empresa": "DIDI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T13:39:14.560087",
+    "empresa": "DIDI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:08:13.446313",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 13,
+    "costo_envio": null,
+    "costo_total": "$223.99",
+    "costo_retail": "$26.00"
+  },
+  {
+    "timestamp": "2026-04-09T14:09:40.671896",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 12,
+    "costo_envio": null,
+    "costo_total": "$242.99",
+    "costo_retail": "$26.00"
+  },
+  {
+    "timestamp": "2026-04-09T14:10:24.497601",
+    "empresa": "UBEREATS",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:11:38.417215",
+    "empresa": "UBEREATS",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:12:23.177076",
+    "empresa": "DIDI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:13:10.542262",
+    "empresa": "DIDI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  }
+]

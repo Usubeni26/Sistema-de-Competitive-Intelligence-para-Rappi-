@@ -1,0 +1,35 @@
+2026-04-08 11:40:19 | INFO | rappi_scraper | [RAPPI] Iniciando navegador...
+2026-04-08 11:40:19 | INFO | rappi_scraper | [RAPPI] Navegador listo.
+2026-04-08 11:40:19 | INFO | rappi_scraper | [Rappi] Iniciando scrape para: unknown | 
+2026-04-08 11:40:19 | INFO | rappi_scraper | [RAPPI] Cerrando recursos...
+2026-04-08 11:40:20 | INFO | rappi_scraper | [RAPPI] Recursos cerrados.
+2026-04-08 11:40:28 | INFO | rappi_scraper | [RAPPI] Iniciando navegador...
+2026-04-08 11:40:28 | INFO | rappi_scraper | [RAPPI] Navegador listo.
+2026-04-08 11:40:28 | INFO | rappi_scraper | [Rappi] Iniciando scrape para: unknown | 
+2026-04-08 11:40:28 | INFO | rappi_scraper | [RAPPI] Cerrando recursos...
+2026-04-08 11:40:28 | INFO | rappi_scraper | [RAPPI] Recursos cerrados.
+2026-04-08 11:41:15 | INFO | rappi_scraper | [RAPPI] Iniciando navegador...
+2026-04-08 11:41:16 | INFO | rappi_scraper | [RAPPI] Navegador listo.
+2026-04-08 11:41:16 | INFO | rappi_scraper | [rappi] Iniciando scrape para CDMX_POLANCO_01 - Polanco
+2026-04-08 11:41:16 | INFO | rappi_scraper | [RAPPI] Intento 1/3 - operación
+2026-04-08 11:41:16 | WARNING | rappi_scraper | [RAPPI] Falló operación en intento 1: 'RappiScraper' object has no attribute 'safe_goto'
+2026-04-08 11:41:16 | INFO | rappi_scraper | [RAPPI] Esperando 3.15s
+2026-04-08 11:41:19 | INFO | rappi_scraper | [RAPPI] Intento 2/3 - operación
+2026-04-08 11:41:19 | WARNING | rappi_scraper | [RAPPI] Falló operación en intento 2: 'RappiScraper' object has no attribute 'safe_goto'
+2026-04-08 11:41:19 | INFO | rappi_scraper | [RAPPI] Esperando 3.29s
+2026-04-08 11:41:22 | INFO | rappi_scraper | [RAPPI] Intento 3/3 - operación
+2026-04-08 11:41:22 | WARNING | rappi_scraper | [RAPPI] Falló operación en intento 3: 'RappiScraper' object has no attribute 'safe_goto'
+2026-04-08 11:41:22 | ERROR | rappi_scraper | [RAPPI] Operación falló tras 3 intentos: operación
+2026-04-08 11:41:22 | INFO | rappi_scraper | [RAPPI] Cerrando recursos...
+2026-04-08 11:41:22 | INFO | rappi_scraper | [RAPPI] Recursos cerrados.
+2026-04-08 11:41:46 | INFO | rappi_scraper | [RAPPI] Iniciando navegador...
+2026-04-08 11:41:47 | INFO | rappi_scraper | [RAPPI] Navegador listo.
+2026-04-08 11:41:47 | INFO | rappi_scraper | [rappi] Iniciando scrape para CDMX_POLANCO_01 - Polanco
+2026-04-08 11:41:47 | INFO | rappi_scraper | [RAPPI] Intento 1/2 - operación
+2026-04-08 11:41:47 | WARNING | rappi_scraper | [RAPPI] Falló operación en intento 1: 'RappiScraper' object has no attribute 'safe_goto'
+2026-04-08 11:41:47 | INFO | rappi_scraper | [RAPPI] Esperando 2.10s
+2026-04-08 11:41:49 | INFO | rappi_scraper | [RAPPI] Intento 2/2 - operación
+2026-04-08 11:41:49 | WARNING | rappi_scraper | [RAPPI] Falló operación en intento 2: 'RappiScraper' object has no attribute 'safe_goto'
+2026-04-08 11:41:49 | ERROR | rappi_scraper | [RAPPI] Operación falló tras 2 intentos: operación
+2026-04-08 11:41:49 | INFO | rappi_scraper | [RAPPI] Cerrando recursos...
+2026-04-08 11:41:49 | INFO | rappi_scraper | [RAPPI] Recursos cerrados.

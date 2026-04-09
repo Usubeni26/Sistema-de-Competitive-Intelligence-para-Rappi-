@@ -1,0 +1,222 @@
+[
+  {
+    "timestamp": "2026-04-09T10:01:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Big Mac Combo",
+    "tiempo_envio": 20,
+    "costo_envio": "$8",
+    "costo_total": "$130",
+    "costo_retail": "$35"
+  },
+  {
+    "timestamp": "2026-04-09T10:05:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Pizza Pepperoni",
+    "tiempo_envio": 35,
+    "costo_envio": "$10",
+    "costo_total": "$180",
+    "costo_retail": "$30"
+  },
+  {
+    "timestamp": "2026-04-09T10:10:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Sushi Roll",
+    "tiempo_envio": 25,
+    "costo_envio": "$7",
+    "costo_total": "$150",
+    "costo_retail": "$40"
+  },
+  {
+    "timestamp": "2026-04-09T10:15:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Hamburguesa BBQ",
+    "tiempo_envio": 30,
+    "costo_envio": "$9",
+    "costo_total": "$140",
+    "costo_retail": "$28"
+  },
+  {
+    "timestamp": "2026-04-09T10:20:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Tacos al Pastor",
+    "tiempo_envio": 18,
+    "costo_envio": "$6",
+    "costo_total": "$90",
+    "costo_retail": "$20"
+  },
+  {
+    "timestamp": "2026-04-09T10:25:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Ensalada César",
+    "tiempo_envio": 22,
+    "costo_envio": "$5",
+    "costo_total": "$85",
+    "costo_retail": "$18"
+  },
+  {
+    "timestamp": "2026-04-09T10:30:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Hot Dog",
+    "tiempo_envio": 15,
+    "costo_envio": "$4",
+    "costo_total": "$60",
+    "costo_retail": "$15"
+  },
+  {
+    "timestamp": "2026-04-09T10:35:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Pollo Broaster",
+    "tiempo_envio": 28,
+    "costo_envio": "$8",
+    "costo_total": "$120",
+    "costo_retail": "$25"
+  },
+  {
+    "timestamp": "2026-04-09T10:40:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Burrito",
+    "tiempo_envio": 24,
+    "costo_envio": "$6",
+    "costo_total": "$95",
+    "costo_retail": "$22"
+  },
+  {
+    "timestamp": "2026-04-09T10:45:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Pasta Alfredo",
+    "tiempo_envio": 27,
+    "costo_envio": "$7",
+    "costo_total": "$110",
+    "costo_retail": "$26"
+  },
+  {
+    "timestamp": "2026-04-09T10:50:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Big Mac Combo",
+    "tiempo_envio": 21,
+    "costo_envio": "$8",
+    "costo_total": "$135",
+    "costo_retail": "$35"
+  },
+  {
+    "timestamp": "2026-04-09T10:55:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Pizza Pepperoni",
+    "tiempo_envio": 38,
+    "costo_envio": "$11",
+    "costo_total": "$185",
+    "costo_retail": "$30"
+  },
+  {
+    "timestamp": "2026-04-09T11:00:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Sushi Roll",
+    "tiempo_envio": 26,
+    "costo_envio": "$7",
+    "costo_total": "$155",
+    "costo_retail": "$40"
+  },
+  {
+    "timestamp": "2026-04-09T11:05:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Hamburguesa BBQ",
+    "tiempo_envio": 32,
+    "costo_envio": "$9",
+    "costo_total": "$145",
+    "costo_retail": "$28"
+  },
+  {
+    "timestamp": "2026-04-09T11:10:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Tacos al Pastor",
+    "tiempo_envio": 19,
+    "costo_envio": "$6",
+    "costo_total": "$95",
+    "costo_retail": "$20"
+  },
+  {
+    "timestamp": "2026-04-09T11:15:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Ensalada César",
+    "tiempo_envio": 23,
+    "costo_envio": "$5",
+    "costo_total": "$88",
+    "costo_retail": "$18"
+  },
+  {
+    "timestamp": "2026-04-09T11:20:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Hot Dog",
+    "tiempo_envio": 16,
+    "costo_envio": "$4",
+    "costo_total": "$65",
+    "costo_retail": "$15"
+  },
+  {
+    "timestamp": "2026-04-09T11:25:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Pollo Broaster",
+    "tiempo_envio": 29,
+    "costo_envio": "$8",
+    "costo_total": "$125",
+    "costo_retail": "$25"
+  },
+  {
+    "timestamp": "2026-04-09T11:30:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Burrito",
+    "tiempo_envio": 25,
+    "costo_envio": "$6",
+    "costo_total": "$98",
+    "costo_retail": "$22"
+  },
+  {
+    "timestamp": "2026-04-09T11:35:00",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_ROMA_01",
+    "order": "Pasta Alfredo",
+    "tiempo_envio": 28,
+    "costo_envio": "$7",
+    "costo_total": "$115",
+    "costo_retail": "$26"
+  },
+  {
+    "timestamp": "2026-04-09T14:08:13.482433",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:09:40.683396",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  }
+]

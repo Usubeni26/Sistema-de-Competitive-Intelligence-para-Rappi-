@@ -1,0 +1,35 @@
+{
+  "country": "Mexico",
+  "currency": "MXN",
+  "version": "1.0",
+  "description": "Representative addresses for competitive intelligence scraping across Rappi, Uber Eats, and DiDi Food in Mexico.",
+  "addresses": [
+    {
+      "id": "CDMX_POLANCO_01",
+      "city": "Ciudad de Mexico",
+      "zone_name": "Polanco",
+      "zone_type": "premium_residential_commercial",
+      "address": "Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico",
+      "lat": 19.4326,
+      "lng": -99.1900,
+      "anchor_restaurants": ["McDonald's", "Burger King", "KFC"],
+      "order": ["Home Office con Big Mac"],
+      "retail": ["Coca-Cola"],
+      "notes": "High-income zone with dense restaurant supply and strong platform competition."
+    },
+    {
+      "id": "CDMX_CONDESA_01",
+      "city": "Ciudad de Mexico",
+      "zone_name": "Condesa",
+      "zone_type": "urban_lifestyle",
+      "address": "Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico",
+      "lat": 19.4100,
+      "lng": -99.1710,
+      "anchor_restaurants": ["McDonald's", "KFC", "Subway"],
+      "order": ["Home Office con Big Mac"],
+      "retail": ["Coca-Cola"],
+      "notes": "High app adoption, mixed premium and young professional demand."
+    }
+    
+  ]
+}

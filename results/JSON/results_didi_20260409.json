@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2026-04-09T10:03:00",
+    "empresa": "DIDI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Big Mac Combo",
+    "tiempo_envio": 22,
+    "costo_envio": "$3",
+    "costo_total": "$125",
+    "costo_retail": "$32"
+  },
+  {
+    "timestamp": "2026-04-09T14:12:23.182517",
+    "empresa": "DIDI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  },
+  {
+    "timestamp": "2026-04-09T14:13:10.546993",
+    "empresa": "DIDI",
+    "address_id": "CDMX_CONDESA_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": null,
+    "costo_envio": null,
+    "costo_total": null,
+    "costo_retail": null
+  }
+]

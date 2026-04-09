@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-04-08T23:15:25.454368",
+    "empresa": "RAPPI",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 13,
+    "costo_envio": null,
+    "costo_total": "$183.99",
+    "costo_retail": "$26.00"
+  },
+  {
+    "timestamp": "2026-04-08T23:53:06.660207",
+    "empresa": "UBEREATS",
+    "address_id": "CDMX_POLANCO_01",
+    "order": "Home Office con Big Mac",
+    "tiempo_envio": 15,
+    "costo_envio": "$0",
+    "costo_total": null,
+    "costo_retail": null
+  }
+]

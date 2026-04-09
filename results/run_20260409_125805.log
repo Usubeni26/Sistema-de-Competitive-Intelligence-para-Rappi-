@@ -1,0 +1,763 @@
+2026-04-09 12:58:05,659 | INFO | orchestrator | Iniciando orquestador de scrapers
+2026-04-09 12:58:05,659 | INFO | orchestrator |   Config:   config/addresses.json
+2026-04-09 12:58:05,659 | INFO | orchestrator |   Scrapers: ['rappi', 'ubereats', 'didi']
+2026-04-09 12:58:05,659 | INFO | orchestrator |   Headless: True
+2026-04-09 12:58:05,660 | INFO | orchestrator |   Output:   results
+2026-04-09 12:58:05,660 | INFO | orchestrator |   Direcciones cargadas: 2
+2026-04-09 12:58:24,506 | INFO | orchestrator | ============================================================
+2026-04-09 12:58:24,507 | INFO | orchestrator | [RAPPI] Iniciando scraping de 2 direcciones
+2026-04-09 12:58:24,507 | INFO | orchestrator | ============================================================
+2026-04-09 12:58:24,507 | INFO | rappi | [rappi] Iniciando navegador...
+2026-04-09 12:58:25,081 | INFO | rappi | [rappi] Navegador listo.
+2026-04-09 12:58:25,081 | INFO | orchestrator | [RAPPI] Dirección 1/2: CDMX_POLANCO_01 — Polanco
+2026-04-09 12:58:25,081 | INFO | rappi | [rappi] order era una lista, se toma el primer elemento: 'Home Office con Big Mac'
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] retail era una lista, se toma el primer elemento: 'Coca-Cola'
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] Iniciando scrape para CDMX_POLANCO_01 - Polanco
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] order='Home Office con Big Mac'
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] retail='Coca-Cola'
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] Intento 1/3
+2026-04-09 12:58:25,083 | INFO | rappi | [rappi] Navegando a: https://www.rappi.com.mx/
+2026-04-09 12:58:28,363 | INFO | rappi | [rappi] Esperando 3.50s...
+2026-04-09 12:58:31,922 | INFO | rappi | [rappi] Esperando 1.59s...
+2026-04-09 12:58:33,834 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_POLANCO_01_home_20260409_175833.png
+2026-04-09 12:58:33,834 | INFO | rappi | [rappi] Intentando setear dirección: Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 12:58:33,965 | INFO | rappi | [rappi] Esperando 1.39s...
+2026-04-09 12:58:35,367 | INFO | rappi | [rappi] Modal de dirección abierto con: [data-qa='address-container'] [role='button']
+2026-04-09 12:58:35,367 | INFO | rappi | [rappi] Esperando 0.54s...
+2026-04-09 12:58:41,951 | INFO | rappi | [rappi] Contenedor de modal detectado: [role='dialog'][aria-modal='true']
+2026-04-09 12:58:41,960 | INFO | rappi | [rappi] Input de dirección encontrado: input[placeholder*='dirección']
+2026-04-09 12:58:48,264 | INFO | rappi | [rappi] Dirección escrita: 'Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 12:58:48,265 | INFO | rappi | [rappi] Esperando 1.12s...
+2026-04-09 12:58:49,440 | INFO | rappi | [rappi] Primera sugerencia seleccionada ([data-qa='suggestion-item'] button)
+2026-04-09 12:58:49,440 | INFO | rappi | [rappi] Esperando 0.72s...
+2026-04-09 12:58:50,479 | INFO | rappi | [rappi] Confirmación de dirección clicada: [data-qa='confirm-address']
+2026-04-09 12:58:58,510 | INFO | rappi | [rappi] Modal de dirección cerrado.
+2026-04-09 12:58:58,510 | INFO | rappi | [rappi] Esperando 2.90s...
+2026-04-09 12:59:01,415 | INFO | rappi | [rappi] Seteo de dirección finalizado.
+2026-04-09 12:59:01,681 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_POLANCO_01_after_address_20260409_175901.png
+2026-04-09 12:59:01,681 | INFO | rappi | [rappi] Intento 1/3
+2026-04-09 12:59:01,681 | INFO | rappi | [rappi] Buscando order: 'Home Office con Big Mac'
+2026-04-09 12:59:03,215 | INFO | rappi | [rappi] Esperando 1.80s...
+2026-04-09 12:59:05,017 | INFO | rappi | [rappi] Búsqueda escrita: 'Home Office con Big Mac' con selector: [data-qa='search-wrapper-desktop'] [data-qa='input']
+2026-04-09 12:59:05,017 | INFO | rappi | [rappi] Esperando 1.89s...
+2026-04-09 12:59:06,935 | INFO | rappi | [rappi] get_by_text exact encontró 'Home Office con Big Mac'
+2026-04-09 12:59:09,892 | INFO | rappi | [rappi] Resultado seleccionado correctamente para 'Home Office con Big Mac'
+2026-04-09 12:59:09,893 | INFO | rappi | [rappi] Esperando 2.87s...
+2026-04-09 12:59:12,979 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_POLANCO_01_home_office_con_big_mac_search_20260409_175912.png
+2026-04-09 12:59:12,988 | INFO | rappi | [rappi] Candidato tiempo envío: '20 min' → 20 min
+2026-04-09 12:59:12,988 | INFO | rappi | [rappi] Candidato tiempo envío: '15 min' → 15 min
+2026-04-09 12:59:12,988 | INFO | rappi | [rappi] Tiempo de entrega mínimo extraído: 15 min
+2026-04-09 12:59:12,993 | WARNING | rappi | [rappi] No se encontró costo de envío en etiquetas <p>
+2026-04-09 12:59:12,993 | INFO | rappi | [rappi] tiempo_envio: 15 | costo_envio: None
+2026-04-09 12:59:12,993 | INFO | rappi | [rappi] Esperando 3.27s...
+2026-04-09 12:59:16,279 | INFO | rappi | [rappi] Buscando producto 'Home Office con Big Mac' en H4...
+2026-04-09 12:59:16,345 | INFO | rappi | [rappi] H4 encontrado con texto: 'Home Office con Big Mac'
+2026-04-09 12:59:16,460 | INFO | rappi | [rappi] Esperando 1.65s...
+2026-04-09 12:59:18,124 | INFO | rappi | [rappi] Producto seleccionado, modal abierto
+2026-04-09 12:59:18,124 | INFO | rappi | [rappi] Iniciando personalización de producto con retail='Coca-Cola'
+2026-04-09 12:59:18,150 | INFO | rappi | [rappi] Modal detectado: div[class*='modal']
+2026-04-09 12:59:18,165 | INFO | rappi | [rappi] Detectados 52 grupos con 'div:has(input[type='radio'])'
+2026-04-09 12:59:18,182 | INFO | rappi | [rappi] Procesando grupo #1 - título=''
+2026-04-09 12:59:18,301 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:18,301 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 12:59:18,811 | INFO | rappi | [rappi] Procesando grupo #2 - título=''
+2026-04-09 12:59:18,889 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:18,889 | INFO | rappi | [rappi] Esperando 0.44s...
+2026-04-09 12:59:19,345 | INFO | rappi | [rappi] Procesando grupo #3 - título=''
+2026-04-09 12:59:19,424 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:19,424 | INFO | rappi | [rappi] Esperando 0.41s...
+2026-04-09 12:59:19,845 | INFO | rappi | [rappi] Procesando grupo #4 - título=''
+2026-04-09 12:59:19,923 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:19,924 | INFO | rappi | [rappi] Esperando 0.52s...
+2026-04-09 12:59:20,455 | INFO | rappi | [rappi] Procesando grupo #5 - título=''
+2026-04-09 12:59:20,539 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:20,540 | INFO | rappi | [rappi] Esperando 0.39s...
+2026-04-09 12:59:20,935 | INFO | rappi | [rappi] Procesando grupo #6 - título=''
+2026-04-09 12:59:21,023 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:21,023 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 12:59:21,525 | INFO | rappi | [rappi] Procesando grupo #7 - título=''
+2026-04-09 12:59:21,606 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:21,606 | INFO | rappi | [rappi] Esperando 0.36s...
+2026-04-09 12:59:21,995 | INFO | rappi | [rappi] Procesando grupo #8 - título=''
+2026-04-09 12:59:22,089 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:22,089 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 12:59:22,475 | INFO | rappi | [rappi] Procesando grupo #9 - título=''
+2026-04-09 12:59:22,561 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:22,561 | INFO | rappi | [rappi] Esperando 0.41s...
+2026-04-09 12:59:22,975 | INFO | rappi | [rappi] Procesando grupo #10 - título=''
+2026-04-09 12:59:23,073 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:23,074 | INFO | rappi | [rappi] Esperando 0.35s...
+2026-04-09 12:59:23,425 | INFO | rappi | [rappi] Procesando grupo #11 - título=''
+2026-04-09 12:59:23,522 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:23,523 | INFO | rappi | [rappi] Esperando 0.43s...
+2026-04-09 12:59:23,967 | INFO | rappi | [rappi] Procesando grupo #12 - título=''
+2026-04-09 12:59:24,056 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:24,057 | INFO | rappi | [rappi] Esperando 0.57s...
+2026-04-09 12:59:24,645 | INFO | rappi | [rappi] Procesando grupo #13 - título=''
+2026-04-09 12:59:24,729 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:24,730 | INFO | rappi | [rappi] Esperando 0.42s...
+2026-04-09 12:59:25,161 | INFO | rappi | [rappi] Procesando grupo #14 - título=''
+2026-04-09 12:59:25,240 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:25,240 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:25,727 | INFO | rappi | [rappi] Procesando grupo #15 - título=''
+2026-04-09 12:59:25,807 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:25,808 | INFO | rappi | [rappi] Esperando 0.42s...
+2026-04-09 12:59:26,245 | INFO | rappi | [rappi] Procesando grupo #16 - título=''
+2026-04-09 12:59:26,323 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:26,323 | INFO | rappi | [rappi] Esperando 0.43s...
+2026-04-09 12:59:26,775 | INFO | rappi | [rappi] Procesando grupo #17 - título=''
+2026-04-09 12:59:26,861 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:26,862 | INFO | rappi | [rappi] Esperando 0.58s...
+2026-04-09 12:59:27,445 | INFO | rappi | [rappi] Procesando grupo #18 - título=''
+2026-04-09 12:59:27,538 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:27,538 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 12:59:28,065 | INFO | rappi | [rappi] Procesando grupo #19 - título=''
+2026-04-09 12:59:28,156 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:28,156 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:28,634 | INFO | rappi | [rappi] Procesando grupo #20 - título=''
+2026-04-09 12:59:28,723 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:28,723 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 12:59:29,242 | INFO | rappi | [rappi] Procesando grupo #21 - título=''
+2026-04-09 12:59:29,329 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:29,329 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:29,795 | INFO | rappi | [rappi] Procesando grupo #22 - título=''
+2026-04-09 12:59:29,888 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:29,889 | INFO | rappi | [rappi] Esperando 0.57s...
+2026-04-09 12:59:30,475 | INFO | rappi | [rappi] Procesando grupo #23 - título=''
+2026-04-09 12:59:30,556 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:30,556 | INFO | rappi | [rappi] Esperando 0.40s...
+2026-04-09 12:59:30,975 | INFO | rappi | [rappi] Procesando grupo #24 - título=''
+2026-04-09 12:59:31,055 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:31,055 | INFO | rappi | [rappi] Esperando 0.36s...
+2026-04-09 12:59:31,430 | INFO | rappi | [rappi] Procesando grupo #25 - título=''
+2026-04-09 12:59:31,511 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:31,511 | INFO | rappi | [rappi] Esperando 0.60s...
+2026-04-09 12:59:32,125 | INFO | rappi | [rappi] Procesando grupo #26 - título=''
+2026-04-09 12:59:32,206 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:32,206 | INFO | rappi | [rappi] Esperando 0.53s...
+2026-04-09 12:59:32,745 | INFO | rappi | [rappi] Procesando grupo #27 - título=''
+2026-04-09 12:59:32,838 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:32,839 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 12:59:33,365 | INFO | rappi | [rappi] Procesando grupo #28 - título=''
+2026-04-09 12:59:33,457 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:33,457 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:33,931 | INFO | rappi | [rappi] Procesando grupo #29 - título=''
+2026-04-09 12:59:34,027 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:34,027 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 12:59:34,415 | INFO | rappi | [rappi] Procesando grupo #30 - título=''
+2026-04-09 12:59:34,506 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:34,506 | INFO | rappi | [rappi] Esperando 0.36s...
+2026-04-09 12:59:34,885 | INFO | rappi | [rappi] Procesando grupo #31 - título=''
+2026-04-09 12:59:34,972 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:34,972 | INFO | rappi | [rappi] Esperando 0.36s...
+2026-04-09 12:59:35,339 | INFO | rappi | [rappi] Procesando grupo #32 - título=''
+2026-04-09 12:59:35,421 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:35,421 | INFO | rappi | [rappi] Esperando 0.50s...
+2026-04-09 12:59:35,935 | INFO | rappi | [rappi] Procesando grupo #33 - título=''
+2026-04-09 12:59:36,027 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:36,028 | INFO | rappi | [rappi] Esperando 0.35s...
+2026-04-09 12:59:36,385 | INFO | rappi | [rappi] Procesando grupo #34 - título=''
+2026-04-09 12:59:36,471 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:36,472 | INFO | rappi | [rappi] Esperando 0.60s...
+2026-04-09 12:59:37,075 | INFO | rappi | [rappi] Procesando grupo #35 - título=''
+2026-04-09 12:59:37,155 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:37,156 | INFO | rappi | [rappi] Esperando 0.56s...
+2026-04-09 12:59:37,729 | INFO | rappi | [rappi] Procesando grupo #36 - título=''
+2026-04-09 12:59:37,805 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:37,806 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 12:59:38,305 | INFO | rappi | [rappi] Procesando grupo #37 - título=''
+2026-04-09 12:59:38,393 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:38,393 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 12:59:38,895 | INFO | rappi | [rappi] Procesando grupo #38 - título=''
+2026-04-09 12:59:38,971 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:38,971 | INFO | rappi | [rappi] Esperando 0.45s...
+2026-04-09 12:59:39,445 | INFO | rappi | [rappi] Procesando grupo #39 - título=''
+2026-04-09 12:59:39,522 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:39,522 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:39,985 | INFO | rappi | [rappi] Procesando grupo #40 - título=''
+2026-04-09 12:59:40,071 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:40,072 | INFO | rappi | [rappi] Esperando 0.55s...
+2026-04-09 12:59:40,635 | INFO | rappi | [rappi] Procesando grupo #41 - título=''
+2026-04-09 12:59:40,727 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:40,728 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 12:59:41,252 | INFO | rappi | [rappi] Procesando grupo #42 - título=''
+2026-04-09 12:59:41,338 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:41,338 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 12:59:41,815 | INFO | rappi | [rappi] Procesando grupo #43 - título=''
+2026-04-09 12:59:41,904 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:41,905 | INFO | rappi | [rappi] Esperando 0.52s...
+2026-04-09 12:59:42,445 | INFO | rappi | [rappi] Procesando grupo #44 - título=''
+2026-04-09 12:59:42,521 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:42,521 | INFO | rappi | [rappi] Esperando 0.57s...
+2026-04-09 12:59:43,115 | INFO | rappi | [rappi] Procesando grupo #45 - título=''
+2026-04-09 12:59:43,193 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:43,193 | INFO | rappi | [rappi] Esperando 0.55s...
+2026-04-09 12:59:43,755 | INFO | rappi | [rappi] Procesando grupo #46 - título=''
+2026-04-09 12:59:43,837 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:43,837 | INFO | rappi | [rappi] Esperando 0.34s...
+2026-04-09 12:59:44,197 | INFO | rappi | [rappi] Procesando grupo #47 - título=''
+2026-04-09 12:59:44,289 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:44,289 | INFO | rappi | [rappi] Esperando 0.39s...
+2026-04-09 12:59:44,697 | INFO | rappi | [rappi] Procesando grupo #48 - título=''
+2026-04-09 12:59:44,789 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:44,789 | INFO | rappi | [rappi] Esperando 0.50s...
+2026-04-09 12:59:45,305 | INFO | rappi | [rappi] Procesando grupo #49 - título=''
+2026-04-09 12:59:45,393 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:45,393 | INFO | rappi | [rappi] Esperando 0.40s...
+2026-04-09 12:59:45,812 | INFO | rappi | [rappi] Procesando grupo #50 - título=''
+2026-04-09 12:59:45,888 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:45,888 | INFO | rappi | [rappi] Esperando 0.31s...
+2026-04-09 12:59:46,215 | INFO | rappi | [rappi] Procesando grupo #51 - título=''
+2026-04-09 12:59:46,306 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:46,306 | INFO | rappi | [rappi] Esperando 0.43s...
+2026-04-09 12:59:46,751 | INFO | rappi | [rappi] Procesando grupo #52 - título=''
+2026-04-09 12:59:46,838 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 12:59:46,839 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 12:59:48,065 | INFO | rappi | [rappi] Total extraído de 'Agregar e ir a pagar $242.99': $242.99
+2026-04-09 12:59:48,065 | INFO | rappi | [rappi] costo_total extraído antes de agregar: $242.99
+2026-04-09 12:59:48,065 | INFO | rappi | [rappi] Precio addon retail 'Coca-Cola': $26.00
+2026-04-09 12:59:48,065 | INFO | rappi | [rappi] costo_retail extraído: $26.00
+2026-04-09 12:59:48,200 | INFO | rappi | [rappi] Click en 'Agregar' usando selector: button:has-text('Agregar e ir a pagar')
+2026-04-09 12:59:48,211 | INFO | rappi | [rappi] Esperando 1.08s...
+2026-04-09 12:59:49,299 | INFO | rappi | [rappi] Producto 'Home Office con Big Mac' agregado al carrito: True
+2026-04-09 12:59:49,299 | INFO | rappi | [rappi] costo_total: $242.99 | costo_retail: $26.00
+2026-04-09 12:59:49,557 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_POLANCO_01_home_office_con_big_mac_cart_20260409_175949.png
+2026-04-09 12:59:49,558 | INFO | rappi | [rappi] Datos guardados en .\raw_20260409.json
+2026-04-09 12:59:49,558 | INFO | rappi | [rappi] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 12:59:49,596 | INFO | orchestrator | [RAPPI] ✅ CDMX_POLANCO_01: 1 resultado(s) guardado(s)
+2026-04-09 12:59:49,596 | INFO | orchestrator | [RAPPI] Dirección 2/2: CDMX_CONDESA_01 — Condesa
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] order era una lista, se toma el primer elemento: 'Home Office con Big Mac'
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] retail era una lista, se toma el primer elemento: 'Coca-Cola'
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] Iniciando scrape para CDMX_CONDESA_01 - Condesa
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] order='Home Office con Big Mac'
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] retail='Coca-Cola'
+2026-04-09 12:59:49,596 | INFO | rappi | [rappi] Intento 1/3
+2026-04-09 12:59:49,597 | INFO | rappi | [rappi] Navegando a: https://www.rappi.com.mx/
+2026-04-09 12:59:51,605 | INFO | rappi | [rappi] Esperando 4.24s...
+2026-04-09 12:59:55,905 | INFO | rappi | [rappi] Esperando 1.30s...
+2026-04-09 12:59:57,476 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_CONDESA_01_home_20260409_175957.png
+2026-04-09 12:59:57,476 | INFO | rappi | [rappi] Intentando setear dirección: Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 12:59:57,605 | INFO | rappi | [rappi] Esperando 0.95s...
+2026-04-09 12:59:58,550 | INFO | rappi | [rappi] Modal de dirección abierto con: [data-qa='address-container'] [role='button']
+2026-04-09 12:59:58,550 | INFO | rappi | [rappi] Esperando 0.63s...
+2026-04-09 13:00:05,195 | INFO | rappi | [rappi] Contenedor de modal detectado: [role='dialog'][aria-modal='true']
+2026-04-09 13:00:05,209 | INFO | rappi | [rappi] Input de dirección encontrado: input[placeholder*='dirección']
+2026-04-09 13:00:11,329 | INFO | rappi | [rappi] Dirección escrita: 'Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 13:00:11,329 | INFO | rappi | [rappi] Esperando 1.11s...
+2026-04-09 13:00:12,505 | INFO | rappi | [rappi] Primera sugerencia seleccionada ([data-qa='suggestion-item'] button)
+2026-04-09 13:00:12,507 | INFO | rappi | [rappi] Esperando 0.64s...
+2026-04-09 13:00:13,246 | INFO | rappi | [rappi] Confirmación de dirección clicada: [data-qa='confirm-address']
+2026-04-09 13:00:13,433 | INFO | rappi | [rappi] 'Guardar dirección' clicado: button:has-text('Guardar dirección')
+2026-04-09 13:00:13,458 | INFO | rappi | [rappi] Modal de dirección cerrado.
+2026-04-09 13:00:13,458 | INFO | rappi | [rappi] Esperando 2.33s...
+2026-04-09 13:00:15,792 | INFO | rappi | [rappi] Seteo de dirección finalizado.
+2026-04-09 13:00:16,106 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_CONDESA_01_after_address_20260409_180015.png
+2026-04-09 13:00:16,106 | INFO | rappi | [rappi] Intento 1/3
+2026-04-09 13:00:16,106 | INFO | rappi | [rappi] Buscando order: 'Home Office con Big Mac'
+2026-04-09 13:00:17,659 | INFO | rappi | [rappi] Esperando 1.95s...
+2026-04-09 13:00:19,607 | INFO | rappi | [rappi] Búsqueda escrita: 'Home Office con Big Mac' con selector: [data-qa='search-wrapper-desktop'] [data-qa='input']
+2026-04-09 13:00:19,607 | INFO | rappi | [rappi] Esperando 2.34s...
+2026-04-09 13:00:21,965 | INFO | rappi | [rappi] get_by_text exact encontró 'Home Office con Big Mac'
+2026-04-09 13:00:26,625 | INFO | rappi | [rappi] Esperando 1.76s...
+2026-04-09 13:00:28,402 | INFO | rappi | [rappi] Evaluando 6 candidatos con selector: a[href*='/tiendas/']
+2026-04-09 13:00:28,456 | INFO | rappi | [rappi] Evaluando 2 candidatos con selector: a[href*='/store/']
+2026-04-09 13:00:28,471 | INFO | rappi | [rappi] Evaluando 71 candidatos con selector: a[href*='/restaurantes/']
+2026-04-09 13:00:28,938 | INFO | rappi | [rappi] Evaluando 171 candidatos con selector: [data-testid*='restaurant'] a
+2026-04-09 13:00:29,038 | INFO | rappi | [rappi] Coincidencia PARCIAL candidata: '1
+Home Office con Big Mac
+$112.99$174.00
+35%'
+2026-04-09 13:00:29,928 | INFO | rappi | [rappi] Evaluando 5 candidatos con selector: [data-testid*='restaurant']
+2026-04-09 13:00:29,965 | INFO | rappi | [rappi] Evaluando 7 candidatos con selector: [data-qa*='store']
+2026-04-09 13:00:30,015 | INFO | rappi | [rappi] Evaluando 141 candidatos con selector: [data-qa*='restaurant']
+2026-04-09 13:00:30,715 | INFO | rappi | [rappi] Evaluando 253 candidatos con selector: a
+2026-04-09 13:00:32,183 | INFO | rappi | [rappi] Click realizado en el resultado seleccionado.
+2026-04-09 13:00:32,184 | INFO | rappi | [rappi] Resultado seleccionado correctamente para 'Home Office con Big Mac'
+2026-04-09 13:00:32,184 | INFO | rappi | [rappi] Esperando 2.04s...
+2026-04-09 13:00:34,469 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_CONDESA_01_home_office_con_big_mac_search_20260409_180034.png
+2026-04-09 13:00:34,477 | INFO | rappi | [rappi] Candidato tiempo envío: '13 min' → 13 min
+2026-04-09 13:00:34,477 | INFO | rappi | [rappi] Candidato tiempo envío: '12 min' → 12 min
+2026-04-09 13:00:34,477 | INFO | rappi | [rappi] Tiempo de entrega mínimo extraído: 12 min
+2026-04-09 13:00:34,481 | WARNING | rappi | [rappi] No se encontró costo de envío en etiquetas <p>
+2026-04-09 13:00:34,481 | INFO | rappi | [rappi] tiempo_envio: 12 | costo_envio: None
+2026-04-09 13:00:34,482 | INFO | rappi | [rappi] Esperando 3.69s...
+2026-04-09 13:00:38,173 | INFO | rappi | [rappi] Buscando producto 'Home Office con Big Mac' en H4...
+2026-04-09 13:00:38,241 | INFO | rappi | [rappi] H4 encontrado con texto: 'Home Office con Big Mac'
+2026-04-09 13:00:43,275 | WARNING | rappi | [rappi] Falló clic en contenedor del producto: Locator.click: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("h4").nth(15).locator("..")
+    - locator resolved to <div class="sc-c6d9f71e-2 kYrYjS">…</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <img decoding="async" data-nimg="fill" alt="Home Office con Big Mac" src="https://images.rappi.com.mx/products/d9b3d38b-60bf-4698-82a8-25249afc15ae.png?e=webp&q=80&d=130x130"/> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <img decoding="async" data-nimg="fill" alt="Home Office con Big Mac" src="https://images.rappi.com.mx/products/d9b3d38b-60bf-4698-82a8-25249afc15ae.png?e=webp&q=80&d=130x130"/> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span color="graya100" data-qa="modal-name" data-testid="typography" class="sc-dcJsrY dZYcPh sc-eDPEul lakUiK">Home Office con Big Mac</span> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <img decoding="async" data-nimg="fill" alt="Home Office con Big Mac" src="https://images.rappi.com.mx/products/d9b3d38b-60bf-4698-82a8-25249afc15ae.png?e=webp&q=80&d=130x130"/> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <img decoding="async" data-nimg="fill" alt="Home Office con Big Mac" src="https://images.rappi.com.mx/products/d9b3d38b-60bf-4698-82a8-25249afc15ae.png?e=webp&q=80&d=130x130"/> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span color="graya100" data-qa="modal-name" data-testid="typography" class="sc-dcJsrY dZYcPh sc-eDPEul lakUiK">Home Office con Big Mac</span> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span color="graya100" data-qa="modal-name" data-testid="typography" class="sc-dcJsrY dZYcPh sc-eDPEul lakUiK">Home Office con Big Mac</span> from <div id="portal-root-container">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2026-04-09 13:00:43,298 | INFO | rappi | [rappi] Esperando 2.14s...
+2026-04-09 13:00:45,455 | INFO | rappi | [rappi] Iniciando personalización de producto con retail='Coca-Cola'
+2026-04-09 13:00:45,480 | INFO | rappi | [rappi] Modal detectado: div[class*='modal']
+2026-04-09 13:00:45,497 | INFO | rappi | [rappi] Detectados 52 grupos con 'div:has(input[type='radio'])'
+2026-04-09 13:00:45,510 | INFO | rappi | [rappi] Procesando grupo #1 - título=''
+2026-04-09 13:00:45,610 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:45,610 | INFO | rappi | [rappi] Esperando 0.35s...
+2026-04-09 13:00:45,965 | INFO | rappi | [rappi] Procesando grupo #2 - título=''
+2026-04-09 13:00:46,052 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:46,052 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 13:00:46,440 | INFO | rappi | [rappi] Procesando grupo #3 - título=''
+2026-04-09 13:00:46,519 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:46,520 | INFO | rappi | [rappi] Esperando 0.57s...
+2026-04-09 13:00:47,105 | INFO | rappi | [rappi] Procesando grupo #4 - título=''
+2026-04-09 13:00:47,187 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:47,188 | INFO | rappi | [rappi] Esperando 0.50s...
+2026-04-09 13:00:47,699 | INFO | rappi | [rappi] Procesando grupo #5 - título=''
+2026-04-09 13:00:47,785 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:47,785 | INFO | rappi | [rappi] Esperando 0.48s...
+2026-04-09 13:00:48,275 | INFO | rappi | [rappi] Procesando grupo #6 - título=''
+2026-04-09 13:00:48,370 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:48,370 | INFO | rappi | [rappi] Esperando 0.43s...
+2026-04-09 13:00:48,815 | INFO | rappi | [rappi] Procesando grupo #7 - título=''
+2026-04-09 13:00:48,902 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:48,903 | INFO | rappi | [rappi] Esperando 0.53s...
+2026-04-09 13:00:49,435 | INFO | rappi | [rappi] Procesando grupo #8 - título=''
+2026-04-09 13:00:49,535 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:49,535 | INFO | rappi | [rappi] Esperando 0.54s...
+2026-04-09 13:00:50,103 | INFO | rappi | [rappi] Procesando grupo #9 - título=''
+2026-04-09 13:00:50,191 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:50,192 | INFO | rappi | [rappi] Esperando 0.31s...
+2026-04-09 13:00:50,505 | INFO | rappi | [rappi] Procesando grupo #10 - título=''
+2026-04-09 13:00:50,603 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:50,603 | INFO | rappi | [rappi] Esperando 0.43s...
+2026-04-09 13:00:51,035 | INFO | rappi | [rappi] Procesando grupo #11 - título=''
+2026-04-09 13:00:51,117 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:51,118 | INFO | rappi | [rappi] Esperando 0.57s...
+2026-04-09 13:00:51,705 | INFO | rappi | [rappi] Procesando grupo #12 - título=''
+2026-04-09 13:00:51,786 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:51,786 | INFO | rappi | [rappi] Esperando 0.39s...
+2026-04-09 13:00:52,185 | INFO | rappi | [rappi] Procesando grupo #13 - título=''
+2026-04-09 13:00:52,291 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:52,292 | INFO | rappi | [rappi] Esperando 0.45s...
+2026-04-09 13:00:52,753 | INFO | rappi | [rappi] Procesando grupo #14 - título=''
+2026-04-09 13:00:52,835 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:52,835 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 13:00:53,366 | INFO | rappi | [rappi] Procesando grupo #15 - título=''
+2026-04-09 13:00:53,453 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:53,453 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 13:00:53,965 | INFO | rappi | [rappi] Procesando grupo #16 - título=''
+2026-04-09 13:00:54,051 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:54,051 | INFO | rappi | [rappi] Esperando 0.46s...
+2026-04-09 13:00:54,525 | INFO | rappi | [rappi] Procesando grupo #17 - título=''
+2026-04-09 13:00:54,624 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:54,624 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 13:00:55,020 | INFO | rappi | [rappi] Procesando grupo #18 - título=''
+2026-04-09 13:00:55,102 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:55,102 | INFO | rappi | [rappi] Esperando 0.47s...
+2026-04-09 13:00:55,595 | INFO | rappi | [rappi] Procesando grupo #19 - título=''
+2026-04-09 13:00:55,686 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:55,686 | INFO | rappi | [rappi] Esperando 0.38s...
+2026-04-09 13:00:56,085 | INFO | rappi | [rappi] Procesando grupo #20 - título=''
+2026-04-09 13:00:56,169 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:56,169 | INFO | rappi | [rappi] Esperando 0.52s...
+2026-04-09 13:00:56,701 | INFO | rappi | [rappi] Procesando grupo #21 - título=''
+2026-04-09 13:00:56,791 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:56,791 | INFO | rappi | [rappi] Esperando 0.35s...
+2026-04-09 13:00:57,165 | INFO | rappi | [rappi] Procesando grupo #22 - título=''
+2026-04-09 13:00:57,252 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:57,252 | INFO | rappi | [rappi] Esperando 0.36s...
+2026-04-09 13:00:57,632 | INFO | rappi | [rappi] Procesando grupo #23 - título=''
+2026-04-09 13:00:57,718 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:57,719 | INFO | rappi | [rappi] Esperando 0.35s...
+2026-04-09 13:00:58,073 | INFO | rappi | [rappi] Procesando grupo #24 - título=''
+2026-04-09 13:00:58,152 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:58,152 | INFO | rappi | [rappi] Esperando 0.52s...
+2026-04-09 13:00:58,700 | INFO | rappi | [rappi] Procesando grupo #25 - título=''
+2026-04-09 13:00:58,791 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:58,791 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 13:00:59,295 | INFO | rappi | [rappi] Procesando grupo #26 - título=''
+2026-04-09 13:00:59,386 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:00:59,386 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 13:00:59,915 | INFO | rappi | [rappi] Procesando grupo #27 - título=''
+2026-04-09 13:01:00,002 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:00,003 | INFO | rappi | [rappi] Esperando 0.38s...
+2026-04-09 13:01:00,409 | INFO | rappi | [rappi] Procesando grupo #28 - título=''
+2026-04-09 13:01:00,502 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:00,502 | INFO | rappi | [rappi] Esperando 0.41s...
+2026-04-09 13:01:00,930 | INFO | rappi | [rappi] Procesando grupo #29 - título=''
+2026-04-09 13:01:01,008 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:01,008 | INFO | rappi | [rappi] Esperando 0.58s...
+2026-04-09 13:01:01,605 | INFO | rappi | [rappi] Procesando grupo #30 - título=''
+2026-04-09 13:01:01,685 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:01,686 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 13:01:02,205 | INFO | rappi | [rappi] Procesando grupo #31 - título=''
+2026-04-09 13:01:02,285 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:02,285 | INFO | rappi | [rappi] Esperando 0.33s...
+2026-04-09 13:01:02,625 | INFO | rappi | [rappi] Procesando grupo #32 - título=''
+2026-04-09 13:01:02,719 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:02,719 | INFO | rappi | [rappi] Esperando 0.54s...
+2026-04-09 13:01:03,275 | INFO | rappi | [rappi] Procesando grupo #33 - título=''
+2026-04-09 13:01:03,356 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:03,357 | INFO | rappi | [rappi] Esperando 0.50s...
+2026-04-09 13:01:03,865 | INFO | rappi | [rappi] Procesando grupo #34 - título=''
+2026-04-09 13:01:03,951 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:03,952 | INFO | rappi | [rappi] Esperando 0.34s...
+2026-04-09 13:01:04,305 | INFO | rappi | [rappi] Procesando grupo #35 - título=''
+2026-04-09 13:01:04,386 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:04,386 | INFO | rappi | [rappi] Esperando 0.58s...
+2026-04-09 13:01:04,980 | INFO | rappi | [rappi] Procesando grupo #36 - título=''
+2026-04-09 13:01:05,068 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:05,068 | INFO | rappi | [rappi] Esperando 0.31s...
+2026-04-09 13:01:05,400 | INFO | rappi | [rappi] Procesando grupo #37 - título=''
+2026-04-09 13:01:05,490 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:05,490 | INFO | rappi | [rappi] Esperando 0.38s...
+2026-04-09 13:01:05,885 | INFO | rappi | [rappi] Procesando grupo #38 - título=''
+2026-04-09 13:01:05,968 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:05,968 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 13:01:06,362 | INFO | rappi | [rappi] Procesando grupo #39 - título=''
+2026-04-09 13:01:06,451 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:06,451 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 13:01:06,959 | INFO | rappi | [rappi] Procesando grupo #40 - título=''
+2026-04-09 13:01:07,035 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:07,035 | INFO | rappi | [rappi] Esperando 0.34s...
+2026-04-09 13:01:07,395 | INFO | rappi | [rappi] Procesando grupo #41 - título=''
+2026-04-09 13:01:07,492 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:07,492 | INFO | rappi | [rappi] Esperando 0.44s...
+2026-04-09 13:01:07,945 | INFO | rappi | [rappi] Procesando grupo #42 - título=''
+2026-04-09 13:01:08,035 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:08,035 | INFO | rappi | [rappi] Esperando 0.52s...
+2026-04-09 13:01:08,571 | INFO | rappi | [rappi] Procesando grupo #43 - título=''
+2026-04-09 13:01:08,651 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:08,651 | INFO | rappi | [rappi] Esperando 0.30s...
+2026-04-09 13:01:08,985 | INFO | rappi | [rappi] Procesando grupo #44 - título=''
+2026-04-09 13:01:09,085 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:09,085 | INFO | rappi | [rappi] Esperando 0.32s...
+2026-04-09 13:01:09,417 | INFO | rappi | [rappi] Procesando grupo #45 - título=''
+2026-04-09 13:01:09,507 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:09,508 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 13:01:10,015 | INFO | rappi | [rappi] Procesando grupo #46 - título=''
+2026-04-09 13:01:10,103 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:10,103 | INFO | rappi | [rappi] Esperando 0.37s...
+2026-04-09 13:01:10,475 | INFO | rappi | [rappi] Procesando grupo #47 - título=''
+2026-04-09 13:01:10,568 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:10,568 | INFO | rappi | [rappi] Esperando 0.51s...
+2026-04-09 13:01:11,101 | INFO | rappi | [rappi] Procesando grupo #48 - título=''
+2026-04-09 13:01:11,184 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:11,184 | INFO | rappi | [rappi] Esperando 0.54s...
+2026-04-09 13:01:11,745 | INFO | rappi | [rappi] Procesando grupo #49 - título=''
+2026-04-09 13:01:11,839 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:11,839 | INFO | rappi | [rappi] Esperando 0.50s...
+2026-04-09 13:01:12,345 | INFO | rappi | [rappi] Procesando grupo #50 - título=''
+2026-04-09 13:01:12,435 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:12,435 | INFO | rappi | [rappi] Esperando 0.49s...
+2026-04-09 13:01:12,945 | INFO | rappi | [rappi] Procesando grupo #51 - título=''
+2026-04-09 13:01:13,034 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:13,035 | INFO | rappi | [rappi] Esperando 0.53s...
+2026-04-09 13:01:13,575 | INFO | rappi | [rappi] Procesando grupo #52 - título=''
+2026-04-09 13:01:13,651 | INFO | rappi | [rappi] ✅ Seleccionada primera opción del grupo '': ''
+2026-04-09 13:01:13,651 | INFO | rappi | [rappi] Esperando 0.44s...
+2026-04-09 13:01:14,855 | INFO | rappi | [rappi] Total extraído de 'Agregar e ir a pagar $242.99': $242.99
+2026-04-09 13:01:14,855 | INFO | rappi | [rappi] costo_total extraído antes de agregar: $242.99
+2026-04-09 13:01:14,862 | INFO | rappi | [rappi] Precio addon retail 'Coca-Cola': $26.00
+2026-04-09 13:01:14,862 | INFO | rappi | [rappi] costo_retail extraído: $26.00
+2026-04-09 13:01:14,999 | INFO | rappi | [rappi] Click en 'Agregar' usando selector: button:has-text('Agregar e ir a pagar')
+2026-04-09 13:01:15,017 | INFO | rappi | [rappi] Esperando 1.39s...
+2026-04-09 13:01:16,406 | INFO | rappi | [rappi] Producto 'Home Office con Big Mac' agregado al carrito: True
+2026-04-09 13:01:16,407 | INFO | rappi | [rappi] costo_total: $242.99 | costo_retail: $26.00
+2026-04-09 13:01:16,663 | INFO | rappi | [rappi] Screenshot guardado: results\screenshots\rappi\rappi_CDMX_CONDESA_01_home_office_con_big_mac_cart_20260409_180116.png
+2026-04-09 13:01:16,663 | INFO | rappi | [rappi] Datos guardados en .\raw_20260409.json
+2026-04-09 13:01:16,663 | INFO | rappi | [rappi] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 13:01:16,692 | INFO | orchestrator | [RAPPI] ✅ CDMX_CONDESA_01: 1 resultado(s) guardado(s)
+2026-04-09 13:01:16,692 | INFO | rappi | [rappi] Cerrando navegador...
+2026-04-09 13:01:16,775 | INFO | orchestrator | [RAPPI] Finalizado. Total resultados: 2 en 2 dirección(es).
+2026-04-09 13:01:16,775 | INFO | orchestrator | ============================================================
+2026-04-09 13:01:16,775 | INFO | orchestrator | [UBEREATS] Iniciando scraping de 2 direcciones
+2026-04-09 13:01:16,775 | INFO | orchestrator | ============================================================
+2026-04-09 13:01:16,775 | INFO | ubereats | [ubereats] Iniciando navegador...
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] Navegador listo.
+2026-04-09 13:01:17,365 | INFO | orchestrator | [UBEREATS] Dirección 1/2: CDMX_POLANCO_01 — Polanco
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] order era una lista, se toma el primer elemento: 'Home Office con Big Mac'
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] retail era una lista, se toma el primer elemento: 'Coca-Cola'
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] Iniciando scrape para CDMX_POLANCO_01 - Polanco
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] order='Home Office con Big Mac'
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] retail='Coca-Cola'
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:01:17,365 | INFO | ubereats | [ubereats] Navegando a: https://www.ubereats.com/mx
+2026-04-09 13:01:17,886 | INFO | ubereats | [ubereats] Esperando 4.35s...
+2026-04-09 13:01:22,342 | INFO | ubereats | [ubereats] Esperando 3.73s...
+2026-04-09 13:01:26,081 | INFO | ubereats | [ubereats] Click realizado en button:has-text('Aceptar')
+2026-04-09 13:01:26,081 | INFO | ubereats | [ubereats] Popup cerrado con selector: button:has-text('Aceptar')
+2026-04-09 13:01:26,081 | INFO | ubereats | [ubereats] Esperando 0.44s...
+2026-04-09 13:01:26,559 | INFO | ubereats | [ubereats] Esperando 1.50s...
+2026-04-09 13:01:28,542 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_POLANCO_01_home_20260409_180128.png
+2026-04-09 13:01:28,542 | INFO | ubereats | [ubereats] Intentando setear dirección: Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 13:01:28,550 | INFO | ubereats | [ubereats] Input de dirección encontrado: input#location-typeahead-home-input
+2026-04-09 13:01:34,675 | INFO | ubereats | [ubereats] Dirección escrita: 'Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 13:01:34,675 | INFO | ubereats | [ubereats] Esperando 1.22s...
+2026-04-09 13:01:35,937 | INFO | ubereats | [ubereats] Primera sugerencia seleccionada: #location-typeahead-home-menu [role='option']
+2026-04-09 13:01:35,938 | INFO | ubereats | [ubereats] Esperando 0.91s...
+2026-04-09 13:01:51,892 | WARNING | ubereats | [ubereats] No se encontró el botón 'Buscar comida'.
+2026-04-09 13:01:51,893 | INFO | ubereats | [ubereats] Esperando 2.27s...
+2026-04-09 13:01:55,363 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_POLANCO_01_after_address_20260409_180154.png
+2026-04-09 13:01:55,363 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:01:55,379 | INFO | ubereats | [ubereats][login] Iniciando proceso de login...
+2026-04-09 13:01:56,076 | INFO | ubereats | [ubereats][login] Botón de login clicado: a[data-test='header-sign-in']
+2026-04-09 13:01:57,105 | INFO | ubereats | [ubereats] Esperando 2.32s...
+2026-04-09 13:01:59,455 | INFO | ubereats | [ubereats][login] Input de correo encontrado: input[name='email']
+2026-04-09 13:01:59,497 | INFO | ubereats | [ubereats] Esperando 0.78s...
+2026-04-09 13:02:00,339 | INFO | ubereats | [ubereats][login] 'Continuar' clicado: button:has-text('Continuar')
+2026-04-09 13:02:00,340 | INFO | ubereats | [ubereats] Esperando 1.51s...
+2026-04-09 13:02:01,876 | INFO | ubereats | [ubereats][login] Campo de contraseña no visible. Verificando si hay pantalla de PIN...
+2026-04-09 13:02:01,954 | INFO | ubereats | [ubereats][login] 'Más opciones' clicado: button[data-testid='Más opciones']
+2026-04-09 13:02:01,955 | INFO | ubereats | [ubereats] Esperando 1.16s...
+2026-04-09 13:02:03,153 | INFO | ubereats | [ubereats][login] Opción 'Contraseña' clicada: p:has-text('Contraseña')
+2026-04-09 13:02:03,155 | INFO | ubereats | [ubereats] Esperando 1.78s...
+2026-04-09 13:02:04,956 | INFO | ubereats | [ubereats][login] Input de contraseña encontrado: input[name='password']
+2026-04-09 13:02:05,006 | INFO | ubereats | [ubereats] Esperando 0.94s...
+2026-04-09 13:02:05,987 | INFO | ubereats | [ubereats][login] Submit de login clicado: button[type='submit']
+2026-04-09 13:02:05,987 | INFO | ubereats | [ubereats] Esperando 2.33s...
+2026-04-09 13:02:08,356 | INFO | ubereats | [ubereats][login][passkey] Pantalla de passkey detectada con indicador: :has-text('clave de acceso')
+2026-04-09 13:02:08,388 | WARNING | ubereats | [ubereats][login][passkey] Se detectó la pantalla de passkey pero no se encontró un botón para cancelarla. Puede requerir intervención manual.
+2026-04-09 13:02:08,388 | WARNING | ubereats | [ubereats][login] ⚠️  Pantalla de 'clave de acceso' detectada.
+2026-04-09 13:02:08,388 | INFO | ubereats | [ubereats] Esperando 1.29s...
+2026-04-09 13:02:19,705 | INFO | ubereats | [ubereats] Esperando 1.27s...
+2026-04-09 13:02:21,017 | WARNING | ubereats | [ubereats][login] No se pudo confirmar el login. Es posible que haya un captcha o verificación adicional.
+2026-04-09 13:02:21,070 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_POLANCO_01_after_login_20260409_180221.png
+2026-04-09 13:02:21,070 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:02:21,070 | INFO | ubereats | [ubereats] Buscando order: 'Home Office con Big Mac'
+2026-04-09 13:02:21,070 | INFO | ubereats | [ubereats] Buscando restaurante: 'Home Office con Big Mac'
+2026-04-09 13:02:21,099 | WARNING | ubereats | [ubereats] No se encontró campo de búsqueda.
+2026-04-09 13:02:21,145 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_POLANCO_01_home_office_con_big_mac_search_20260409_180221.png
+2026-04-09 13:02:21,145 | WARNING | ubereats | [ubereats] No se pudo abrir el restaurante, no se agrega producto
+2026-04-09 13:02:21,146 | INFO | ubereats | [ubereats] Datos guardados en .\raw_20260409.json
+2026-04-09 13:02:21,147 | INFO | ubereats | [ubereats] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 13:02:21,151 | INFO | orchestrator | [UBEREATS] ✅ CDMX_POLANCO_01: 1 resultado(s) guardado(s)
+2026-04-09 13:02:21,152 | INFO | orchestrator | [UBEREATS] Dirección 2/2: CDMX_CONDESA_01 — Condesa
+2026-04-09 13:02:21,152 | INFO | ubereats | [ubereats] order era una lista, se toma el primer elemento: 'Home Office con Big Mac'
+2026-04-09 13:02:21,152 | INFO | ubereats | [ubereats] retail era una lista, se toma el primer elemento: 'Coca-Cola'
+2026-04-09 13:02:21,152 | INFO | ubereats | [ubereats] Iniciando scrape para CDMX_CONDESA_01 - Condesa
+2026-04-09 13:02:21,152 | INFO | ubereats | [ubereats] order='Home Office con Big Mac'
+2026-04-09 13:02:21,153 | INFO | ubereats | [ubereats] retail='Coca-Cola'
+2026-04-09 13:02:21,153 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:02:21,153 | INFO | ubereats | [ubereats] Navegando a: https://www.ubereats.com/mx
+2026-04-09 13:02:22,196 | INFO | ubereats | [ubereats] Esperando 3.75s...
+2026-04-09 13:02:28,484 | INFO | ubereats | [ubereats] Esperando 1.65s...
+2026-04-09 13:02:31,298 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_CONDESA_01_home_20260409_180230.png
+2026-04-09 13:02:31,298 | INFO | ubereats | [ubereats] Intentando setear dirección: Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 13:02:31,329 | INFO | ubereats | [ubereats] Input de dirección encontrado: input[name='searchTerm']
+2026-04-09 13:02:38,317 | INFO | ubereats | [ubereats] Dirección escrita: 'Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 13:02:38,317 | INFO | ubereats | [ubereats] Esperando 1.68s...
+2026-04-09 13:02:48,580 | INFO | ubereats | [ubereats] Primera sugerencia seleccionada: [role='listbox'] [role='option']
+2026-04-09 13:02:48,580 | INFO | ubereats | [ubereats] Esperando 1.00s...
+2026-04-09 13:03:04,607 | WARNING | ubereats | [ubereats] No se encontró el botón 'Buscar comida'.
+2026-04-09 13:03:04,608 | INFO | ubereats | [ubereats] Esperando 1.93s...
+2026-04-09 13:03:07,023 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_CONDESA_01_after_address_20260409_180306.png
+2026-04-09 13:03:07,023 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:03:07,032 | INFO | ubereats | [ubereats][login] Iniciando proceso de login...
+2026-04-09 13:03:07,673 | INFO | ubereats | [ubereats][login] Botón de login clicado: a[data-test='header-sign-in']
+2026-04-09 13:03:08,578 | INFO | ubereats | [ubereats] Esperando 1.72s...
+2026-04-09 13:03:10,327 | INFO | ubereats | [ubereats][login] Input de correo encontrado: input[name='email']
+2026-04-09 13:03:10,376 | INFO | ubereats | [ubereats] Esperando 0.83s...
+2026-04-09 13:03:11,271 | INFO | ubereats | [ubereats][login] 'Continuar' clicado: button:has-text('Continuar')
+2026-04-09 13:03:11,271 | INFO | ubereats | [ubereats] Esperando 1.90s...
+2026-04-09 13:03:13,182 | INFO | ubereats | [ubereats][login] Campo de contraseña no visible. Verificando si hay pantalla de PIN...
+2026-04-09 13:03:13,272 | INFO | ubereats | [ubereats][login] 'Más opciones' clicado: button[data-testid='Más opciones']
+2026-04-09 13:03:13,272 | INFO | ubereats | [ubereats] Esperando 1.09s...
+2026-04-09 13:03:14,400 | INFO | ubereats | [ubereats][login] Opción 'Contraseña' clicada: p:has-text('Contraseña')
+2026-04-09 13:03:14,400 | INFO | ubereats | [ubereats] Esperando 1.96s...
+2026-04-09 13:03:16,382 | INFO | ubereats | [ubereats][login] Input de contraseña encontrado: input[name='password']
+2026-04-09 13:03:16,420 | INFO | ubereats | [ubereats] Esperando 0.55s...
+2026-04-09 13:03:17,033 | INFO | ubereats | [ubereats][login] Submit de login clicado: button[type='submit']
+2026-04-09 13:03:17,033 | INFO | ubereats | [ubereats] Esperando 2.63s...
+2026-04-09 13:03:19,690 | INFO | ubereats | [ubereats][login][passkey] Pantalla de passkey detectada con indicador: :has-text('clave de acceso')
+2026-04-09 13:03:19,723 | WARNING | ubereats | [ubereats][login][passkey] Se detectó la pantalla de passkey pero no se encontró un botón para cancelarla. Puede requerir intervención manual.
+2026-04-09 13:03:19,725 | WARNING | ubereats | [ubereats][login] ⚠️  Pantalla de 'clave de acceso' detectada.
+2026-04-09 13:03:19,725 | INFO | ubereats | [ubereats] Esperando 1.40s...
+2026-04-09 13:03:31,141 | INFO | ubereats | [ubereats] Esperando 1.02s...
+2026-04-09 13:03:32,231 | INFO | ubereats | [ubereats] Esperando 3.86s...
+2026-04-09 13:03:36,105 | INFO | ubereats | [ubereats] Click realizado en button[aria-label='Close']
+2026-04-09 13:03:36,105 | INFO | ubereats | [ubereats] Popup cerrado con selector: button[aria-label='Close']
+2026-04-09 13:03:36,105 | INFO | ubereats | [ubereats] Esperando 0.38s...
+2026-04-09 13:03:36,497 | WARNING | ubereats | [ubereats][login] No se pudo confirmar el login. Es posible que haya un captcha o verificación adicional.
+2026-04-09 13:03:36,546 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_CONDESA_01_after_login_20260409_180336.png
+2026-04-09 13:03:36,546 | INFO | ubereats | [ubereats] Intento 1/3
+2026-04-09 13:03:36,546 | INFO | ubereats | [ubereats] Buscando order: 'Home Office con Big Mac'
+2026-04-09 13:03:36,546 | INFO | ubereats | [ubereats] Buscando restaurante: 'Home Office con Big Mac'
+2026-04-09 13:03:36,574 | WARNING | ubereats | [ubereats] No se encontró campo de búsqueda.
+2026-04-09 13:03:36,625 | INFO | ubereats | [ubereats] Screenshot guardado: results\screenshots\ubereats\ubereats_CDMX_CONDESA_01_home_office_con_big_mac_search_20260409_180336.png
+2026-04-09 13:03:36,626 | WARNING | ubereats | [ubereats] No se pudo abrir el restaurante, no se agrega producto
+2026-04-09 13:03:36,626 | INFO | ubereats | [ubereats] Datos guardados en .\raw_20260409.json
+2026-04-09 13:03:36,627 | INFO | ubereats | [ubereats] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 13:03:36,639 | INFO | orchestrator | [UBEREATS] ✅ CDMX_CONDESA_01: 1 resultado(s) guardado(s)
+2026-04-09 13:03:36,639 | INFO | ubereats | [ubereats] Cerrando navegador...
+2026-04-09 13:03:36,752 | INFO | orchestrator | [UBEREATS] Finalizado. Total resultados: 2 en 2 dirección(es).
+2026-04-09 13:03:36,752 | INFO | orchestrator | ============================================================
+2026-04-09 13:03:36,752 | INFO | orchestrator | [DIDI] Iniciando scraping de 2 direcciones
+2026-04-09 13:03:36,752 | INFO | orchestrator | ============================================================
+2026-04-09 13:03:36,752 | INFO | didi | [didi] Iniciando navegador...
+2026-04-09 13:03:37,339 | INFO | didi | [didi] Navegador listo.
+2026-04-09 13:03:37,339 | INFO | orchestrator | [DIDI] Dirección 1/2: CDMX_POLANCO_01 — Polanco
+2026-04-09 13:03:37,339 | INFO | didi | [didi] order='Home Office con Big Mac' | retail='Coca-Cola'
+2026-04-09 13:03:37,340 | INFO | didi | [didi] Intento 1/3
+2026-04-09 13:03:37,343 | INFO | didi | [didi] Navegando a: https://www.didi-food.com/es-MX/food/
+2026-04-09 13:03:38,241 | INFO | didi | [didi] Esperando 2.75s...
+2026-04-09 13:03:41,097 | INFO | didi | [didi] Esperando 1.20s...
+2026-04-09 13:03:42,776 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_POLANCO_01_home_20260409_180342.png
+2026-04-09 13:03:42,776 | INFO | didi | [didi] Intentando setear dirección: Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 13:03:42,783 | INFO | didi | [didi] Input de dirección encontrado: input[placeholder='Ingresar dirección de entrega']
+2026-04-09 13:03:50,915 | INFO | didi | [didi] Dirección escrita: 'Av. Presidente Masaryk 111, Polanco, Miguel Hidalgo, 11560 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 13:03:50,915 | INFO | didi | [didi] Esperando 2.22s...
+2026-04-09 13:03:53,175 | WARNING | didi | [didi] No se encontró botón 'Buscar comida'.
+2026-04-09 13:03:53,175 | INFO | didi | [didi] Esperando 2.94s...
+2026-04-09 13:03:56,115 | INFO | didi | [didi] Seteo de dirección finalizado.
+2026-04-09 13:03:56,272 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_POLANCO_01_after_address_20260409_180356.png
+2026-04-09 13:03:56,298 | INFO | didi | [didi] Iniciando flujo de login...
+2026-04-09 13:03:56,455 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_login_before_20260409_180356.png
+2026-04-09 13:03:56,519 | INFO | didi | [didi] Prefijo clicado con: span.country-code
+2026-04-09 13:03:56,519 | INFO | didi | [didi] Esperando 1.44s...
+2026-04-09 13:03:58,000 | INFO | didi | [didi] Prefijo '57' seleccionado
+2026-04-09 13:03:58,000 | INFO | didi | [didi] Esperando 0.70s...
+2026-04-09 13:03:58,708 | INFO | didi | [didi] Campo de teléfono encontrado: div.phone-number input
+2026-04-09 13:03:58,787 | INFO | didi | [didi] Esperando 0.39s...
+2026-04-09 13:03:59,202 | INFO | didi | [didi] Esperando 0.25s...
+2026-04-09 13:04:00,550 | INFO | didi | [didi] Esperando 0.32s...
+2026-04-09 13:04:00,885 | INFO | didi | [didi] Teléfono escrito: '3184783032'
+2026-04-09 13:04:00,885 | INFO | didi | [didi] Esperando 0.61s...
+2026-04-09 13:04:01,521 | INFO | didi | [didi] Campo de contraseña encontrado: div.input-pwd input
+2026-04-09 13:04:01,605 | INFO | didi | [didi] Esperando 0.28s...
+2026-04-09 13:04:01,906 | INFO | didi | [didi] Esperando 0.24s...
+2026-04-09 13:04:03,166 | INFO | didi | [didi] Esperando 0.42s...
+2026-04-09 13:04:03,598 | INFO | didi | [didi] Contraseña escrita.
+2026-04-09 13:04:03,598 | INFO | didi | [didi] Esperando 0.56s...
+2026-04-09 13:04:04,230 | INFO | didi | [didi] Términos aceptados con: span.checkbox.check-default
+2026-04-09 13:04:04,230 | INFO | didi | [didi] Esperando 0.62s...
+2026-04-09 13:04:04,857 | INFO | didi | [didi] Esperando 0.64s...
+2026-04-09 13:04:05,597 | INFO | didi | [didi] Botón de login clicado: div.button.actived
+2026-04-09 13:04:05,597 | INFO | didi | [didi] Esperando 4.86s...
+2026-04-09 13:04:10,656 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_login_after_20260409_180410.png
+2026-04-09 13:04:10,679 | WARNING | didi | [didi] No se pudo confirmar login exitoso.
+2026-04-09 13:04:10,838 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_POLANCO_01_after_login_20260409_180410.png
+2026-04-09 13:04:10,838 | INFO | didi | [didi] Intento 1/3
+2026-04-09 13:04:10,838 | INFO | didi | [didi] Buscando order: 'Home Office con Big Mac'
+2026-04-09 13:04:12,308 | INFO | didi | [didi] Esperando 1.74s...
+2026-04-09 13:04:14,054 | INFO | didi | [didi] Búsqueda escrita: 'Home Office con Big Mac' con selector: input[placeholder*='Ingresa']
+2026-04-09 13:04:14,054 | INFO | didi | [didi] Esperando 1.81s...
+2026-04-09 13:04:15,875 | INFO | didi | [didi] Esperando 1.98s...
+2026-04-09 13:04:17,895 | WARNING | didi | [didi] No se encontró resultado para 'Home Office con Big Mac'
+2026-04-09 13:04:17,895 | WARNING | didi | [didi] Sin coincidencia visible para 'Home Office con Big Mac'. Usando Enter.
+2026-04-09 13:04:17,905 | INFO | didi | [didi] Esperando 2.91s...
+2026-04-09 13:04:20,823 | INFO | didi | [didi] Esperando 1.29s...
+2026-04-09 13:04:22,149 | WARNING | didi | [didi] No se encontró resultado para 'Home Office con Big Mac'
+2026-04-09 13:04:22,310 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_POLANCO_01_home_office_con_big_mac_search_20260409_180422.png
+2026-04-09 13:04:22,310 | WARNING | didi | [didi] No se pudo abrir el restaurante
+2026-04-09 13:04:22,311 | INFO | didi | [didi] Datos guardados en .\raw_20260409.json
+2026-04-09 13:04:22,311 | INFO | didi | [didi] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 13:04:22,319 | INFO | orchestrator | [DIDI] ✅ CDMX_POLANCO_01: 1 resultado(s) guardado(s)
+2026-04-09 13:04:22,319 | INFO | orchestrator | [DIDI] Dirección 2/2: CDMX_CONDESA_01 — Condesa
+2026-04-09 13:04:22,319 | INFO | didi | [didi] order='Home Office con Big Mac' | retail='Coca-Cola'
+2026-04-09 13:04:22,319 | INFO | didi | [didi] Intento 1/3
+2026-04-09 13:04:22,323 | INFO | didi | [didi] Navegando a: https://www.didi-food.com/es-MX/food/
+2026-04-09 13:04:22,909 | INFO | didi | [didi] Esperando 2.91s...
+2026-04-09 13:04:25,928 | INFO | didi | [didi] Esperando 1.65s...
+2026-04-09 13:04:28,060 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_CONDESA_01_home_20260409_180427.png
+2026-04-09 13:04:28,060 | INFO | didi | [didi] Intentando setear dirección: Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico
+2026-04-09 13:04:28,066 | INFO | didi | [didi] Input de dirección encontrado: input[placeholder='Ingresar dirección de entrega']
+2026-04-09 13:04:35,915 | INFO | didi | [didi] Dirección escrita: 'Av. Amsterdam 255, Hipodromo Condesa, Cuauhtemoc, 06100 Ciudad de Mexico, CDMX, Mexico'
+2026-04-09 13:04:35,915 | INFO | didi | [didi] Esperando 1.75s...
+2026-04-09 13:04:37,881 | WARNING | didi | [didi] No se encontró botón 'Buscar comida'.
+2026-04-09 13:04:37,881 | INFO | didi | [didi] Esperando 2.69s...
+2026-04-09 13:04:40,561 | INFO | didi | [didi] Seteo de dirección finalizado.
+2026-04-09 13:04:40,724 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_CONDESA_01_after_address_20260409_180440.png
+2026-04-09 13:04:40,750 | INFO | didi | [didi] Iniciando flujo de login...
+2026-04-09 13:04:40,912 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_login_before_20260409_180440.png
+2026-04-09 13:04:40,966 | INFO | didi | [didi] Prefijo clicado con: span.country-code
+2026-04-09 13:04:40,966 | INFO | didi | [didi] Esperando 1.12s...
+2026-04-09 13:04:42,131 | INFO | didi | [didi] Prefijo '57' seleccionado
+2026-04-09 13:04:42,131 | INFO | didi | [didi] Esperando 0.90s...
+2026-04-09 13:04:43,051 | INFO | didi | [didi] Campo de teléfono encontrado: div.phone-number input
+2026-04-09 13:04:43,137 | INFO | didi | [didi] Esperando 0.39s...
+2026-04-09 13:04:43,553 | INFO | didi | [didi] Esperando 0.25s...
+2026-04-09 13:04:44,908 | INFO | didi | [didi] Esperando 0.42s...
+2026-04-09 13:04:45,353 | INFO | didi | [didi] Teléfono escrito: '3184783032'
+2026-04-09 13:04:45,353 | INFO | didi | [didi] Esperando 0.80s...
+2026-04-09 13:04:46,163 | INFO | didi | [didi] Campo de contraseña encontrado: div.input-pwd input
+2026-04-09 13:04:46,235 | INFO | didi | [didi] Esperando 0.31s...
+2026-04-09 13:04:46,572 | INFO | didi | [didi] Esperando 0.20s...
+2026-04-09 13:04:47,765 | INFO | didi | [didi] Esperando 0.37s...
+2026-04-09 13:04:48,140 | INFO | didi | [didi] Contraseña escrita.
+2026-04-09 13:04:48,140 | INFO | didi | [didi] Esperando 0.74s...
+2026-04-09 13:04:48,962 | INFO | didi | [didi] Términos aceptados con: span.checkbox.check-default
+2026-04-09 13:04:48,963 | INFO | didi | [didi] Esperando 0.51s...
+2026-04-09 13:04:49,489 | INFO | didi | [didi] Esperando 0.80s...
+2026-04-09 13:04:50,377 | INFO | didi | [didi] Botón de login clicado: div.button.actived
+2026-04-09 13:04:50,377 | INFO | didi | [didi] Esperando 3.79s...
+2026-04-09 13:04:54,371 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_login_after_20260409_180454.png
+2026-04-09 13:04:54,396 | WARNING | didi | [didi] No se pudo confirmar login exitoso.
+2026-04-09 13:04:54,555 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_CONDESA_01_after_login_20260409_180454.png
+2026-04-09 13:04:54,556 | INFO | didi | [didi] Intento 1/3
+2026-04-09 13:04:54,556 | INFO | didi | [didi] Buscando order: 'Home Office con Big Mac'
+2026-04-09 13:04:56,015 | INFO | didi | [didi] Esperando 1.23s...
+2026-04-09 13:04:57,251 | INFO | didi | [didi] Búsqueda escrita: 'Home Office con Big Mac' con selector: input[placeholder*='Ingresa']
+2026-04-09 13:04:57,251 | INFO | didi | [didi] Esperando 2.02s...
+2026-04-09 13:04:59,280 | INFO | didi | [didi] Esperando 1.11s...
+2026-04-09 13:05:00,425 | WARNING | didi | [didi] No se encontró resultado para 'Home Office con Big Mac'
+2026-04-09 13:05:00,425 | WARNING | didi | [didi] Sin coincidencia visible para 'Home Office con Big Mac'. Usando Enter.
+2026-04-09 13:05:00,435 | INFO | didi | [didi] Esperando 2.99s...
+2026-04-09 13:05:03,435 | INFO | didi | [didi] Esperando 1.05s...
+2026-04-09 13:05:04,525 | WARNING | didi | [didi] No se encontró resultado para 'Home Office con Big Mac'
+2026-04-09 13:05:04,670 | INFO | didi | [didi] Screenshot guardado: results\screenshots\didi\didi_CDMX_CONDESA_01_home_office_con_big_mac_search_20260409_180504.png
+2026-04-09 13:05:04,670 | WARNING | didi | [didi] No se pudo abrir el restaurante
+2026-04-09 13:05:04,672 | INFO | didi | [didi] Datos guardados en .\raw_20260409.json
+2026-04-09 13:05:04,672 | INFO | didi | [didi] JSON raw guardado en: .\raw_20260409.json
+2026-04-09 13:05:04,687 | INFO | orchestrator | [DIDI] ✅ CDMX_CONDESA_01: 1 resultado(s) guardado(s)
+2026-04-09 13:05:04,687 | INFO | didi | [didi] Cerrando navegador...
+2026-04-09 13:05:04,775 | INFO | orchestrator | [DIDI] Finalizado. Total resultados: 2 en 2 dirección(es).
+2026-04-09 13:05:04,775 | INFO | orchestrator | 
+2026-04-09 13:05:04,775 | INFO | orchestrator | ╔══════════════════════════════════════════════════════════╗
+2026-04-09 13:05:04,775 | INFO | orchestrator | ║                   RESUMEN DE EJECUCIÓN                  ║
+2026-04-09 13:05:04,775 | INFO | orchestrator | ╠══════════════════════════════════════════════════════════╣
+2026-04-09 13:05:04,775 | INFO | orchestrator | ║  ✅ RAPPI      resultados: 2     
+2026-04-09 13:05:04,775 | INFO | orchestrator | ║  ✅ UBEREATS   resultados: 2     
+2026-04-09 13:05:04,775 | INFO | orchestrator | ║  ✅ DIDI       resultados: 2     
